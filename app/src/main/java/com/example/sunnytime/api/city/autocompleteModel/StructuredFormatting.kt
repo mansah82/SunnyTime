@@ -1,0 +1,10 @@
+package com.example.sunnytime.api.city.autocompleteModel
+
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class StructuredFormatting(
+    val main_text: String,
+    val main_text_matched_substrings: List<MainTextMatchedSubstring>,
+    val secondary_text: String
+)
