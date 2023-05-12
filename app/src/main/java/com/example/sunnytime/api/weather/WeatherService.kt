@@ -1,4 +1,4 @@
-package com.example.sunnytime.api
+package com.example.sunnytime.api.weather
 
 import com.example.sunnytime.api.weathermodel.WeatherResponse
 import io.ktor.client.*
