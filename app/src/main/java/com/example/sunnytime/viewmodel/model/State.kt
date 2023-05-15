@@ -9,5 +9,8 @@ data class State(
     val uvIndex: Double? = 0.0,
     val listOfCities: List<Prediction> = emptyList(),
     val latitude: Double = 0.0,
-    val longitude: Double = 0.0
+    val chosenCity: String = "",
+    val longitude: Double = 0.0,
+    val dateOffset: Int = 0,
+    val dayOfTheWeek: String = "Today"
 )
